@@ -8,10 +8,12 @@ if (place_meeting(x + speed, y, obj_wall)) {
 	speed *= -1;
 }
 //Animation
-if (!place_meeting(x, y + 1, obj_wall)) {
+if (place_meeting(x, y + 1, obj_wall)) {
 	sprite_index = spr_enemy_jump;
 	image_speed = 0;
 	if (vsp > 0) {
+		vsp = -jumpsp;
+		currjumps += 1;
 		image_index = 2;
 	} else if (vsp == 0) {
 		image_index = 1;	
@@ -33,7 +35,6 @@ if (on_wall != 0) && (vsp > 0) && (key_left != 0 || key_right != 0) {
 	grv_final = grv_wall;
 }
 vsp += grv_final;
-
 
 //Vertical collision
 if (place_meeting(x, y + vsp, obj_wall)) {

@@ -165,4 +165,9 @@ if(hsp != 0) {
 	image_xscale = sign(hsp);
 }
 
-//debug area
+// PROJECTILE MOUSE MOVEMENT
+if(mouse_check_button_pressed(mb_left))
+{
+	var inst = instance_create_layer(x - 24,y - 24, "Instances", obj_bullet);
+	inst.direction = point_direction(x,y, mouse_x, mouse_y);
+}

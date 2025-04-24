@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy_spawn",
+  "%Name":"obj_boss_spawn",
   "eventList":[],
   "managed":true,
-  "name":"obj_enemy_spawn",
+  "name":"obj_boss_spawn",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

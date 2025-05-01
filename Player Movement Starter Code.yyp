@@ -35,6 +35,7 @@
   },
   "name":"Player Movement Starter Code",
   "resources":[
+    {"id":{"name":"obj_boss_bullets","path":"objects/obj_boss_bullets/obj_boss_bullets.yy",},},
     {"id":{"name":"obj_boss_spawn","path":"objects/obj_boss_spawn/obj_boss_spawn.yy",},},
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
@@ -43,6 +44,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"rm_level1","path":"rooms/rm_level1/rm_level1.yy",},},
+    {"id":{"name":"spr_boss_projectile","path":"sprites/spr_boss_projectile/spr_boss_projectile.yy",},},
     {"id":{"name":"spr_boss","path":"sprites/spr_boss/spr_boss.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"spr_enemy_jump","path":"sprites/spr_enemy_jump/spr_enemy_jump.yy",},},

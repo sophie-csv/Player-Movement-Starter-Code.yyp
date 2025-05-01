@@ -1,6 +1,6 @@
 if (global.boss_health >= 500)
 {
-	global.boss_health -= 5;
+	global.boss_health -= 50;
 }
 else if( global.boss_health <= 0)
 {
@@ -8,5 +8,5 @@ else if( global.boss_health <= 0)
 }
 else
 {
-	global.boss_health -= 1;
+	global.boss_health -= 100;
 }

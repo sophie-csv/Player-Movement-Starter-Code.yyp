@@ -1,1 +1,1 @@
-global.boss_health = 100
+global.boss_health = 1000;

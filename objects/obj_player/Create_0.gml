@@ -1,5 +1,5 @@
 /// @description Establish key vars
-
+global.player_health = 100;
 hsp = 0;
 hsp_wjump = 9;
 vsp = 0;
